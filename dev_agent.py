@@ -3,7 +3,7 @@ import sys
 import json
 import re
 import time
-from pathlib import Path
+from pathlib import Path 
 
 
 def get_base_dir():
@@ -44,7 +44,8 @@ def _strip_fences(text: str) -> str:
     text = text.strip()
     text = re.sub(r"^```[a-zA-Z]*\r?\n?", "", text)
     text = re.sub(r"\r?\n?```\s*$", "", text)
-    return text.strip()
+    return text.strip() 
+    
 
 
 def _is_rate_limit(error: Exception) -> bool:
