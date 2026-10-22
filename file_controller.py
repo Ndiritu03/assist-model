@@ -12,6 +12,7 @@ except ImportError:
 
 from core.undo import push_undo
 
+
 _OS = platform.system()  # "Windows" | "Darwin" | "Linux"
 
 # Undo keeps a file's previous contents in memory so `write` can be reversed.
