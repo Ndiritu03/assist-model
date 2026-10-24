@@ -5,7 +5,6 @@ import re
 import time
 from pathlib import Path
 
-
 def get_base_dir():
     if getattr(sys, "frozen", False):
         return Path(sys.executable).parent
