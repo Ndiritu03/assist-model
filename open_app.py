@@ -1,7 +1,8 @@
 import time
 import subprocess
 import platform
-import shutil
+import shutil 
+
 try:
     import psutil
     _PSUTIL = True
