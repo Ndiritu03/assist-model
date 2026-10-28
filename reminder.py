@@ -7,6 +7,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+
 _CNW: dict = (
     {"creationflags": subprocess.CREATE_NO_WINDOW}
     if platform.system() == "Windows" else {}
