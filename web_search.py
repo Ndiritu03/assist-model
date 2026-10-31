@@ -5,6 +5,7 @@ import threading
 import time
 from pathlib import Path
 
+
 # ── Gemini grounding quota circuit breaker ────────────────────────────────────
 # The google_search grounding tool has its own small quota, separate from plain
 # generation.  Once it is spent every call returns 429 — so retrying it at the
