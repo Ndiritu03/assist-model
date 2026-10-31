@@ -9,6 +9,7 @@ from pathlib import Path
 from datetime import datetime
 from urllib.parse import quote_plus
 
+
 try:
     import pyautogui
     _PYAUTOGUI = True
