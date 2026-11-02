@@ -4,7 +4,6 @@ Checks DDG news once per day per topic; alerts JARVIS when a new headline appear
 No crypto, no finance, no uninvited tracking.
 """
 
-
 import hashlib
 import json
 import re
