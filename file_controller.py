@@ -4,6 +4,7 @@ import platform
 from pathlib import Path
 from datetime import datetime
 
+
 try:
     import send2trash
     _SEND2TRASH = True
