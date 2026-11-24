@@ -2,7 +2,6 @@ import webbrowser
 from urllib.parse import quote_plus
 
 
-
 def weather_action(
     parameters: dict,
     player=None,
