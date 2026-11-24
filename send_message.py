@@ -6,6 +6,7 @@ from pathlib import Path
 
 
 
+
 try:
     import pyautogui
     pyautogui.FAILSAFE = True
